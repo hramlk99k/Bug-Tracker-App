@@ -1,6 +1,6 @@
 ## 🏗️ Project Architecture & Data Flow
 
-That's an excellent idea to clearly document the features of your Bug Tracker App! Here's a complete, professional list based on the functionality we implemented:
+
 
 ✨ Features
 Complete Task Management (CRUD): Users can Create, Read, Update (move), and Delete tasks seamlessly.
