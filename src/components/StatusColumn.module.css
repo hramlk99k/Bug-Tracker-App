@@ -1,0 +1,37 @@
+/* StatusColumn.module.css */
+
+.column {
+  /* Defines the space and appearance of the column */
+  flex: 1 1 300px; /* Allows the column to grow (1), shrink (1), and have a base width of 300px */
+  min-width: 280px; /* Minimum width on small screens */
+  background-color: #383a45; /* Dark background for the column itself */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  max-height: 80vh; /* Prevents columns from getting too long */
+  overflow-y: auto; /* Adds a scrollbar if the tasks exceed max-height */
+}
+
+.columnHeader {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #4f5361; /* Separator line */
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskCount {
+  color: #a0a2ac;
+  font-weight: normal;
+  font-size: 0.9em;
+  margin-left: 5px;
+}
+
+.taskList {
+  /* Container for the TaskCards */
+  display: flex;
+  flex-direction: column;
+}

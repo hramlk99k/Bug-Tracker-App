@@ -1,0 +1,41 @@
+/* TaskForm.module.css */
+
+.taskForm {
+  /* Uses flex to line up all inputs, selectors, and the button */
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #383a45;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  width: fit-content; 
+}
+
+/* Styles the input fields AND the select dropdown */
+.taskForm input,
+.taskForm select {
+  padding: 10px 12px;
+  border: 1px solid #4f5361;
+  border-radius: 4px;
+  background-color: #2e3039; /* Dark background */
+  color: #c4c6d0; /* Light text color */
+  font-size: 0.9em;
+  appearance: none; 
+}
+
+/* Styles the "Add Task" button */
+.taskForm button {
+  background-color: #4CAF50; /* Green submit button */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-weight: bold;
+}
+
+.taskForm button:hover {
+  background-color: #45a049;
+}

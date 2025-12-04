@@ -1,0 +1,16 @@
+/* Board.module.css */
+
+.boardWrapper {
+  padding: 20px;
+  background-color: #2e3039; /* Dark background for the whole page */
+  min-height: 100vh; /* Ensures the background covers the entire viewport */
+  color: #c4c6d0;
+}
+
+.columnsContainer {
+  /* CRITICAL: Use flex to align columns horizontally */
+  display: flex; 
+  gap: 20px; /* Space between columns */
+  align-items: flex-start; /* Keeps columns flush at the top */
+  flex-wrap: wrap; /* Allows columns to drop down on small screens */
+}

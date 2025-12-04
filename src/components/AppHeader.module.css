@@ -1,0 +1,59 @@
+/* AppHeader.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #1f2127; /* Dark header background */
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.branding {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoIcon {
+    font-size: 1.8em;
+}
+
+.appTitle {
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.searchBar {
+    padding: 8px 12px;
+    border: 1px solid #4f5361;
+    border-radius: 4px;
+    background-color: #2e3039;
+    color: #c4c6d0;
+    font-size: 0.9em;
+    width: 250px;
+}
+
+.addTaskButton {
+    background-color: #007bff; /* Blue button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.addTaskButton:hover {
+    background-color: #0056b3;
+}
